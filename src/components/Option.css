@@ -1,0 +1,41 @@
+.option {
+  background-color: rgba(128, 128, 128, 0.279);  
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.4s; 
+}
+
+.option p {
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#options-container .answerSelected {
+  opacity: 2;
+  background-color: antiquewhite;
+}
+
+.option:hover {
+  opacity: 1;
+} 
+
+#options-container .option p {
+  margin-bottom: 0;
+}
+
+.correct {
+  background-color: #7c7c7c81;
+  font-weight: bold;
+}
+
+.wrong {
+  background-color: #7c7c7c7c;
+}
+
+.hide {
+  display: none;
+}
